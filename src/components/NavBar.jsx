@@ -21,7 +21,7 @@ function NavBar(background) {
     </div> */} 
 
     {/* /* ------------links de navegacion------------ */}
-    <nav>
+    <nav className='nav_header'>
         <ul className="nav_container">
             <li className="nav_container_list">
                 <a  className="nav_container_list_link" href="/">Inicio</a>
