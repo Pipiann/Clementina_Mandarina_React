@@ -4,7 +4,7 @@
 }
 
     .header_background{
-        background-color: aqua;
+        background-image:"/gatito clementina logo.jpg";
     }
 
     .logo-container{
@@ -52,7 +52,7 @@
     grid-row: auto;
     justify-content: end;
     align-items: baseline;
-    width: 400px;
+    width: 600px;
 
     
 }
@@ -64,11 +64,19 @@
 
 .item-list-container-title{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px ;
+    font-size: 20px ;
     font-weight: bold;
+    margin-left: 120px;
 }
 
 .nav_header{
     display: flex;
     padding: 25px;
+}
+
+@media (max-width:560px){
+    .cart-widget{
+        width: 490px;
+    }
+
 }

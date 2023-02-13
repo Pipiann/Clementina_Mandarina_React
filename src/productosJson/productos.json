@@ -46,7 +46,7 @@
         "Producto": "Vestido",
         "Nombre":"Monstruo Rojo",
         "Precio" : 4000,
-        "'Talle": 2,
+        "Talle": 2,
         "Stock" : 8,
         "Foto" : "/vestidos_producto_ig_2.jpg"
     },
@@ -55,11 +55,11 @@
     {
         "Id":6,
         "Producto": "Bodys",
-        "Nombre":"Saludos",
+        "Nombre":"Pajarito Azul",
         "Precio" : 6000,
-        "'Talle": 1,
+        "Talle": 1,
         "Stock" : 15,
-        "Foto" : "/bodys (1).jpg"
+        "Foto" : "/body_producto.jpg"
     },
 
     {
@@ -67,7 +67,7 @@
         "Producto":"Chaleco",
         "Nombre":"Orejitas",
         "Precio" : 9000,
-        "'Talle": 8,
+        "Talle": 8,
         "Stock" : 15,
         "Foto" : "/chaleco_ig_1.jpg"
     }

@@ -1,0 +1,38 @@
+.producto_Card{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #dcbadb;
+    margin-left: -31px;
+}
+
+.producto_Imagen{
+    border-radius: 10px;
+    background-color: azure;
+    height: 345px;
+    width: 260px ;
+    
+}
+
+.producto_Info{
+    background-color: darkorchid;
+}
+
+.productos_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,230px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+}
+
+@media (max-width:560px){
+    .producto_Imagen{
+         width: 350px;
+         height: auto;
+    }
+    .productos_grid{
+        grid-template-columns: 100%;
+    }
+}
+

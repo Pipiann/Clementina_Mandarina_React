@@ -1,5 +1,6 @@
-import productos from "../productos.json";
+import productos from "../productosJson/productos.json";
 import {ProductosCard} from "./ProductosCard"
+import "./styles/producto.css"
 
 
 export function ProductosGrid () {

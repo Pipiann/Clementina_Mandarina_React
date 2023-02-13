@@ -37,6 +37,15 @@ function NavBar(background) {
             </li>
         </ul>
     </nav>
+    
+
+    {/* ----------------cart-widget--------------     */}
+
+    <div>
+        <CartWidget/>
+    </div>
+
+
     {/* logo de la marca */}
 
     <div className='logo-container'>
@@ -44,12 +53,6 @@ function NavBar(background) {
 
     </div>
 
-
-    {/* ----------------cart-widget--------------     */}
-
-    <div>
-        <CartWidget/>
-    </div>
 
     </header>
 
