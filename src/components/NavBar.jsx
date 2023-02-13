@@ -40,7 +40,7 @@ function NavBar(background) {
     {/* logo de la marca */}
 
     <div className='logo-container'>
-        <img src={logo} alt="logo" />
+        <img  className='img-container' src={logo} alt="logo" />
 
     </div>
 

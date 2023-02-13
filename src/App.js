@@ -1,8 +1,9 @@
 
 // import './App.css';
 
-import NavBar from "./components/NavBar";
+import NavBar from "./components/NavBar"; 
 import ItemListContainer from "./components/ItemListContainer";
+import {ProductosGrid} from "./components/ProductosGrid"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
     <NavBar/>
     <ItemListContainer greeting={"Lista de Productos"}/>
+    <ProductosGrid/>
     </>
       
     
